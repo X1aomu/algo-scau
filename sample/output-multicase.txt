@@ -1,0 +1,13 @@
+30
+60
+group 1 done
+16
+36
+8
+group 2 done
+20
+12
+7
+600
+143
+group 3 done

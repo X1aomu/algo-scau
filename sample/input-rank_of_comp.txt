@@ -1,0 +1,7 @@
+6
+3 5 Jon
+5 100 Smith
+3 5 Tom
+6 95 Hel
+6 1 Xiaomu
+0 0 fuck
