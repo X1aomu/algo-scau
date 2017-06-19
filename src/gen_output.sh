@@ -8,3 +8,5 @@ do
     exe=$(echo $f | cut -f1 -d.)
     ./$exe < ../sample/input-$exe.txt > ../sample/output-$exe.txt
 done
+
+make clean
