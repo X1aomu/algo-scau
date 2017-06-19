@@ -3,5 +3,5 @@
 5 100 Smith
 3 5 Tom
 6 95 Hel
-6 1 Xiaomu
-0 0 fuck
+6 1 Gatsby
+0 0 Shit
