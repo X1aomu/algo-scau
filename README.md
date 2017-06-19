@@ -38,13 +38,13 @@
 开始你的冒险吧！
 
 __Tips:__
-+ 为了让 `test.sh` 正常工作，你在 _practice/XXX_ 目录下文件的后缀应该为 _.c(c 文件)_ 或 _.cc(c++ 文件)_，文件名请随意。
-+ 你可以在每道题对应的目录 _practice/XXX_ 下添加多个源文件，__test.sh__ 会帮你把所有的源文件都测试一遍。
++ 为了让 `test.sh` 正常工作，你在 _practice/XXX_ 目录下文件的后缀应该为 _.c_(c 文件) 或 _.cc_(c++ 文件)，文件名请随意。
++ 你可以在每道题对应的目录 _practice/XXX_ 下添加多个源文件，__test.sh__ 会自动帮你把所有的源文件都测试一遍。
 
 ## 注意事项
-使用 `test.sh` `gen_output.sh` 等脚本需要有 bash 环境，你可以通过安装一个 Linux 发行版或是 WSL 来获得。
+使用 `test.sh` `gen_output.sh` 等脚本需要有 __bash__ 环境，你可以通过安装一个 __Linux 发行版__或是 __WSL__ 来获得。
 
-此外，还依赖了以下工具（它们很容易就可以心安装在一个 Linux 发行版或是 WSL 上）：
+此外，还依赖了以下工具（它们很容易就可以被安装在一个 Linux 发行版或是 WSL 上）：
   + gcc
   + GNU make
   + GNU coreutils
