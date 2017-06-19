@@ -45,10 +45,10 @@ __Tips:__
 使用 `test.sh` `gen_output.sh` 等脚本需要有 bash 环境，你可以通过安装一个 Linux 发行版或是 WSL 来获得。
 
 此外，还依赖了以下工具（它们很容易就可以心安装在一个 Linux 发行版或是 WSL 上）：
-    + gcc
-    + GNU make
-    + GNU coreutils
-    + GNU diffutils
+  + gcc
+  + GNU make
+  + GNU coreutils
+  + GNU diffutils
 
 若是缺少以上环境和工具，你可能无法享受到自动处理脚本的便利，但是你依然可以手动编译源码、运行和测试。
 
