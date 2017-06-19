@@ -8,7 +8,7 @@
 #define max(a, b) ((a) > (b) ? (a) : (b))
 using namespace std;
 
-long long solve(int a, int b)
+long long solve(long long a, long long b)
 {
     long long r;
     while ((r = a % b) != 0)
