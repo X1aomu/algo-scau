@@ -42,9 +42,9 @@ __Tips:__
 + 你可以在每道题对应的目录 _practice/XXX_ 下添加多个源文件，__test.sh__ 会自动帮你把所有的源文件都测试一遍。
 
 ## 注意事项
-使用 `test.sh` `gen_output.sh` 等脚本需要有 __bash__ 环境，你可以通过安装一个 __Linux 发行版__或是 __WSL__ 来获得。
+使用 `test.sh` `gen_output.sh` 等脚本需要有 __bash__ 环境，你可以通过安装一个 __Linux 发行版__ 或是 __WSL__ 来获得。
 
-此外，还依赖了以下工具（它们很容易就可以被安装在一个 Linux 发行版或是 WSL 上）：
+此外，还依赖了以下工具（它们很容易就可以被安装在一个 Linux 发行版 或是 WSL 上）：
   + gcc
   + GNU make
   + GNU coreutils
