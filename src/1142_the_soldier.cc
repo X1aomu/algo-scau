@@ -17,11 +17,10 @@ long long solve(const long long &n)
     if (3 > n) return 0;
     else
     {
-        if (m.find(n) != m.end()) return m[n];
+        if (m.find(n) != m.end())
+            return m[n];
         else
-        {
             return m[n] = solve(n/2) + solve((n+1)/2);
-        }
     }
 }
 

@@ -8,8 +8,6 @@
 #define max(a, b) ((a) > (b) ? (a) : (b))
 using namespace std;
 
-using namespace std;
-
 typedef struct custom
 {
     int time;
@@ -24,6 +22,11 @@ bool operator < (const custom &pep1, const custom &pep2)
 }
 
 const int k_max = 100000;
+
+inline void Serve(const custom &pep)
+{
+    printf("%s\n", pep.name);
+}
 
 int main()
 {
@@ -49,12 +52,16 @@ int main()
             q.pop();
         }
         if (!pq.empty())
-            {printf("%s\n", pq.top().name); pq.pop();}
+        {
+            Serve(pq.top());
+            pq.pop();
+        }
         time += 5;
     }
     while (!pq.empty())
     {
-        printf("%s\n", pq.top().name); pq.pop();
+        Serve(pq.top());
+        pq.pop();;
     }
     return 0;
 }

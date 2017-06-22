@@ -8,7 +8,8 @@
 #define max(a, b) ((a) > (b) ? (a) : (b))
 using namespace std;
 
-typedef struct comp {
+typedef struct comp
+{
     int order;
     int passes;
     int time;

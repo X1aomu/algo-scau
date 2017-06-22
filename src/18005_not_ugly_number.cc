@@ -10,8 +10,8 @@ using namespace std;
 
 const int k_ugly = 1400;
 const int k_max = 100000000;
-unsigned long r[k_max];
-unsigned long ugly[k_ugly];
+int r[k_max];
+int ugly[k_ugly];
 
 typedef pair<int, int> mypair;
 
@@ -34,7 +34,7 @@ int main()
     int count = 0;
     for (int i = 0; i < k_ugly; i++)
     {
-        for (unsigned long j = ugly[i] + 1; j < ugly[i+1]; j++)
+        for (int j = ugly[i] + 1; j < ugly[i+1]; j++)
         {
             if (count < k_max)
                 r[count++] = j;
@@ -48,7 +48,7 @@ int main()
     while (t--)
     {
         scanf("%d", &n);
-        printf("%lu\n", r[n - 1]);
+        printf("%d\n", r[n - 1]);
     }
     return 0;
 }

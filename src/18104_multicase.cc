@@ -21,7 +21,6 @@ long long solve(long long a, long long b)
 
 int main()
 {
-    //ios::sync_with_stdio(false);
     int n;
     long long a, b;
     scanf("%d", &n);

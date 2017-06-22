@@ -13,7 +13,7 @@ int c[k_max][k_max];
 int d[k_max][k_max];
 int n;
 
-int solve(int a, int b)
+int solve(const int &a, const int &b)
 {
     if (d[a][b] != -1) return d[a][b];
     else
@@ -23,8 +23,7 @@ int solve(int a, int b)
         {
             int left = solve(a + 1, b);
             int right = solve(a + 1, b + 1);
-            d[a][b] = c[a][b] + max(left, right);
-            return d[a][b];
+            return d[a][b] = c[a][b] + max(left, right);
         }
     }
 }
@@ -41,21 +40,5 @@ int main()
         }
     }
     printf("%d\n", solve(0, 0));
-    //for (int i = 0; i < n; i++)
-    //{
-    //    for (int j = 0; j <= i; j++)
-    //    {
-    //        printf("%d ", c[i][j]);
-    //    }
-    //    printf("\n");
-    //}
-    //for (int i = 0; i < n; i++)
-    //{
-    //    for (int j = 0; j <= i; j++)
-    //    {
-    //        printf("%d ", d[i][j]);
-    //    }
-    //    printf("\n");
-    //}
     return 0;
 }

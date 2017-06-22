@@ -14,7 +14,7 @@ int d[k_n];
 int p[k_n];
 int dp[k_power + 1];
 
-void solve(const int a, const int b)
+inline void solve(const int &a, const int &b)
 {
     for (int j = k_power; j >= b; j--)
     {

@@ -13,7 +13,7 @@ const int male = 1, female = 0;
 long long solve(const int &m, const int &f, const int &pp, const int &p)
 {
     if (m < 0 || f < 0) return 0;
-    if (f == 0) return 1;
+    else if (f == 0) return 1;
     else if (m == 0) // f != 0
     {
         if (f > 1) return 0;
@@ -36,9 +36,7 @@ long long A(const int &n)
 {
     long long result = 1;
     for (int i = 2; i <= n; i++)
-    {
         result *= i;
-    }
     return result;
 }
 
